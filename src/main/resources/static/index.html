@@ -1,38 +1,54 @@
 <html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <link rel="shortcut icon" href="/assets/favicon.png">
         <link rel="stylesheet" href="/src/style.css">
         <title>PARZIVAL48</title>
     </head>
+
     <body>
         <h1>Sakda Suwantheerangkoon</h1>
-        <img class="profile-pic" src="/assets/writer.png">
+        <div class="profile-pic">
+            <img src="/assets/writer.png">
+        </div>
         <div class="flex-container">
-            <img class="social-icon" src="/assets/social-facebook.png">
-            <img class="social-icon" src="/assets/social-github.png">
-            <img class="social-icon" src="/assets/social-instagram.png">
-            <img class="social-icon" src="/assets/social-youtube.png">
+            <a href="https://facebook.com/parzival48">
+                <img class="social-icon" src="/assets/social-facebook.png">
+            </a>
+            <a href="https://github.com/parzival48">
+                <img class="social-icon" src="/assets/social-github.png">
+            </a>
+            <a href="https://instagram.com/parzival48">
+                <img class="social-icon" src="/assets/social-instagram.png">
+            </a>
+            <a href="https://twitter.com/parzival48">
+                <img class="social-icon" src="/assets/social-twitter.png">
+            </a>
         </div>
         <footer>
-            <h2>
-                Computer Engineering Student, KMITL<br><br>
+            <p>
+                <b>It's okay if you don't like me.</b><br>
+                Not everyone has good taste.<br><br>
                 &#128172; sakda@parzival48.tech
-            </h2>
+            </p>
         </footer>
     </body>
+
     <style>
+        
         h1 {
-            color: #89c049;
+            color:  #76a83d;
             background-color: #292422;
             text-align: center;
             padding: 10px;
         }
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #89c049;
+            background-color: #76a83d;
         }
         .profile-pic {
+            pointer-events: none;
             visibility: hidden;
             position: fixed;
             bottom: 0;
@@ -48,22 +64,28 @@
             width: 72px;
             height: 72px;
         }
+        a:hover {
+            filter: invert(1);
+        }
         footer {
-            color: #89c049;
+            color:  #76a83d;
             background-color: #292422;
             text-align: center;
             padding: 20px;
         }
+        p {
+            font-size: x-large;
+        }
         @media only screen and (min-width: 800px) {
             h1 {
                 color: #292422;
-                background-color: #89c049;
+                background-color:  #76a83d;
                 padding: 10px;
                 text-align: left;
                 font-size: 80;
                 margin-left: 15px;
             }
-            .profile-pic {
+            .profile-pic img {
                 visibility: visible;
                 width: 50vw;
                 max-width: 500px;
