@@ -25,5 +25,6 @@ class LiveController {
     }
 
     /* B do something1 */
+    /* B do something2 */
 
 }
